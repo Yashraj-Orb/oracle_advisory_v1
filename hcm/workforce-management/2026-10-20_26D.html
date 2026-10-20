@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>HCM · Workforce Management · 26D</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
+@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
+.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
+h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
+.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
+border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:28px}
+</style></head><body><div class="wrap">
+<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">HCM</a> › Workforce Management</nav>
+<div class="card"><h1>HCM · Workforce Management: Release digest</h1>
+<p><strong>Covers:</strong> Absence Management 26D, Time and Labor 26D, Workforce Health and Safety 26B, Workforce Scheduling 26D<br />
+<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26D release for Workforce Management brings a host of enhancements across several modules, including Absence Management, Time and Labor, Workforce Health and Safety, and Workforce Scheduling. Notable improvements include the ability to record partial-day absence durations, enhanced visibility into compensatory plan balances, and new features for managing workday definitions in a guided Redwood experience. Additionally, the integration of organization calendar events into scheduling tools improves transparency and planning. Customers should be aware of required actions for setting up new features and the introduction of dedicated security roles for managing absences and entitlements.</p>
+<h2>What's New</h2>
+<ul>
+<li>Absence Management now supports using fast formulas to record partial-day absence durations, enhancing flexibility for absence types with days UOM. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51124.htm">Duration Formula Support for Absence Types With Days UOM and Elapsed Schedules</a>)</li>
+<li>The Compensatory Plan Balance page allows employees and managers to review compensatory plan balances as running totals for selected date ranges. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51240.htm">Review Compensatory Plan Balances as Running Totals</a>)</li>
+<li>A dedicated security role for Absences and Entitlements has been introduced, allowing for better alignment with organizational security policies. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51241.htm">Dedicated Security Role for Absences and Entitlements</a>)</li>
+<li>The Absences and Entitlements Redwood page now displays total funds available in the donation pool during balance transfers. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51242.htm">Donation Pool Fund Balance Available on Absences and Entitlements</a>)</li>
+<li>The Redwood Workday Definitions task allows users to create and manage workday definitions in a guided experience, improving usability. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/tila-26d/26D-time-labor-wn-f50903.htm">Redwood Experience for Workday Definitions</a>)</li>
+<li>Calendar event enhancements on Redwood time cards provide clearer visibility into public holidays and default full-day event entries based on applicable schedules. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/tila-26d/26D-time-labor-wn-f50904.htm">Enhancements for Calendar Events on Redwood Time Cards</a>)</li>
+<li>New metrics in the Incidents Real Time subject area enhance reporting on Environment Health and Safety, including counts for various incident types. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26b/wohs-26b/26B-workforce-health-wn-f43768.htm">New Metrics in Incidents Real Time Subject Area</a>)</li>
+<li>The Team Schedule view now includes filter options for line managers and workers to focus on relevant organizational and event data. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/wosc-26d/26D-workforce-scheduling-wn-f51336.htm">Filter Options in Redwood Team Schedule</a>)</li>
+<li>The Shift Assignment Assistant helps Schedule Managers find the best worker for shifts using natural language queries, streamlining the assignment process. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/wosc-26d/26D-workforce-scheduling-wn-f51347.htm">Shift Assignment Assistant</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Absence Planning page now sorts search results by name rather than absence status, improving clarity and usability. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51269.htm">Default Sorting by Name in Absence Planning</a>)</li>
+<li>The integration of absence management with Redwood time cards allows for clearer visibility into absence approvals and their statuses, enhancing overall record accuracy. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/tila-26d/26D-time-labor-wn-f50905.htm">Enhancements for Absence Integration on Redwood Time Cards</a>)</li>
+<li>Minimum staffing levels can now guide schedule generation, prioritizing assignments that help meet staffing targets, improving staffing coverage. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/wosc-26d/26D-workforce-scheduling-wn-f51282.htm">Prioritize Minimum Staffing in Schedule Generation</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<p>None identified in this release.</p>
+<h2>Action Required</h2>
+<ul>
+<li>Assign the Absence and Entitlement Management Duty role to a custom role to utilize the new dedicated security role for Absences and Entitlements. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f51241.htm">Dedicated Security Role for Absences and Entitlements</a>)</li>
+<li>Enable the profile option for the Absences Leave Agreement experience to access the enhanced Leave Agreements page. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/amg-26d/26D-absence-mgmt-wn-f50578.htm">Enhanced Leave Agreements Page</a>)</li>
+<li>Define full day public holidays and other calendar events to take advantage of the enhancements for calendar events on Redwood time cards. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/tila-26d/26D-time-labor-wn-f50904.htm">Enhancements for Calendar Events on Redwood Time Cards</a>)</li>
+<li>Configure minimum staffing in the staffing grid to utilize the new prioritization feature for schedule generation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/hcm/26d/wosc-26d/26D-workforce-scheduling-wn-f51282.htm">Prioritize Minimum Staffing in Schedule Generation</a>)</li>
+</ul></div>
+<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
+authoritative. Generated 2026-10-20 11:22 UTC.</footer>
+</div></body></html>

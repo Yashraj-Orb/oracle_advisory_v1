@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>ERP · Procurement · 26D</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
+@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
+.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
+h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
+.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
+border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:28px}
+</style></head><body><div class="wrap">
+<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">ERP</a> › Procurement</nav>
+<div class="card"><h1>ERP · Procurement: Release digest</h1>
+<p><strong>Covers:</strong> Procurement 26D, Self Service Procurement 26D<br />
+<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26D release for Procurement and Self Service Procurement brings a wealth of new capabilities aimed at enhancing operational efficiency and collaboration. Key highlights include the ability to enable intra-organizational material transfers, improved inventory management with attributes for manual transfers, and streamlined procurement approval workflows. Additionally, new REST resources facilitate better integration with external systems, while enhancements to the user experience in both Procurement and Self Service Procurement modules aim to simplify processes. Customers are encouraged to review and opt in to new features, as some require specific configurations to be fully utilized.</p>
+<h2>What's New</h2>
+<ul>
+<li>Procurement enables intra-organizational material transfers for supply requests, enhancing fulfillment flexibility and inventory utilization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>)</li>
+<li>New inventory on hand striping attributes for manual transfer supply requests improve fulfillment precision by capturing required inventory characteristics. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50330.htm">Inventory on hand striping attributes for manual transfer supply requests in Supply Chain Orchestration</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50330.htm">Inventory on hand striping attributes for manual transfer supply requests in Supply Chain Orchestration</a>)</li>
+<li>Purchase requisitions from min-max planning can now be routed through the procurement approval workflow, streamlining the replenishment process. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50331.htm">Route inventory min-max planning and PAR replenishment purchase requests through procurement approval workflow</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50331.htm">Route inventory min-max planning and PAR replenishment purchase requests through procurement approval workflow</a>)</li>
+<li>Support for minimum remaining shelf life in back-to-back fulfillment flows ensures compliance with inventory quality standards. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50333.htm">Support minimum remaining shelf life for back-to-back transfer and on hand flows</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50333.htm">Support minimum remaining shelf life for back-to-back transfer and on hand flows</a>)</li>
+<li>Collaboration Messaging now allows deriving supplier site from invoice account numbers, ensuring accurate routing of invoices. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50501.htm">Derive supplier site from invoice account numbers</a>)</li>
+<li>New REST resources simplify integration with external systems, enhancing procurement processes and data management. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50411.htm">Integrate and extend procurement using REST resources</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50411.htm">Integrate and extend procurement using REST resources</a>)</li>
+<li>The Procurement Spend Command Center provides insights into maverick spend and agreement leakage, helping to identify cost-saving opportunities. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f51649.htm">Procurement Spend Command Center</a>)</li>
+<li>New user experience for configuring procurement business functions streamlines management of settings across various procurement areas. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f49538.htm">Configure procurement business functions</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f49538.htm">Configure procurement business functions</a>)</li>
+<li>Users can now create and manage Microsoft Teams conversations directly from procurement documents, enhancing collaboration. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50533.htm">Collaborate on procurement documents and intake requests using Microsoft Teams</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50533.htm">Collaborate on procurement documents and intake requests using Microsoft Teams</a>)</li>
+<li>The Procurement Request Concierge offers a conversational entry point for procurement tasks, improving user engagement and task completion. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50397.htm">Procurement Request Concierge</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Intake Request Creation Assistant now includes features like automatic UOM validation and AI-generated request summaries, enhancing user experience. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50312.htm">Intake Request Creation Assistant - Create and review with enhanced features</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50312.htm">Intake Request Creation Assistant - Create and review with enhanced features</a>)</li>
+<li>Lifecycle management for intake requests has been improved, allowing requesters to change templates and view return reasons before resubmitting. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50315.htm">Enhance lifecycle management for intake requests</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50315.htm">Enhance lifecycle management for intake requests</a>)</li>
+<li>Table column personalizations on various pages are now retained on the server, ensuring user customizations persist across sessions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50534.htm">Retain column personalizations for table layouts on Supplier Model pages</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f51244.htm">Retain column personalizations for table layouts on Sourcing pages</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>The original Redwood supplier search feature will be removed in update 27B, replaced by a new feature that allows searching for suppliers using tax identifiers introduced in 26D. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-t78569.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Classic Supplier Portal invoice and payment pages will no longer be available after enabling the Redwood experience. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50881.htm">Redwood Supplier Portal Invoice Submission and Status Tracking</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must review and opt in to new features using specific privileges to ensure they are enabled for their environment. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-t78606.htm">Optional Uptake of New Features (Opt In)</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-t78609.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+<li>Enable the appropriate profile options to utilize new features such as the Procurement Spend Command Center and the new user experience for procurement business functions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f51649.htm">Procurement Spend Command Center</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f49538.htm">Configure procurement business functions</a>)</li>
+<li>Set up necessary configurations for Microsoft Teams integration and ensure all required permissions are granted for users. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/proc26d/26D-procurement-wn-f50533.htm">Collaborate on procurement documents and intake requests using Microsoft Teams</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/ssproc26d/26D-ssproc-wn-f50533.htm">Collaborate on procurement documents and intake requests using Microsoft Teams</a>)</li>
+</ul></div>
+<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
+authoritative. Generated 2026-10-20 11:22 UTC.</footer>
+</div></body></html>

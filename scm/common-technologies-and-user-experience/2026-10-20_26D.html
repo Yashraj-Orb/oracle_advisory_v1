@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>SCM · Common Technologies and User Experience · 26D</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
+@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
+.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
+h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
+.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
+border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:28px}
+</style></head><body><div class="wrap">
+<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">SCM</a> › Common Technologies and User Experience</nav>
+<div class="card"><h1>SCM · Common Technologies and User Experience: Release digest</h1>
+<p><strong>Covers:</strong> Common Technologies and User Experience 26D<br />
+<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the 26D release of the Common Technologies and User Experience category, several new features and enhancements have been introduced across various modules. Users can now record issues directly on Redwood pages, facilitating better support for troubleshooting. AI Agent Studio has expanded its capabilities, allowing administrators to manage AI unit budgets, integrate CI/CD processes, and implement testing automation through ATLAS. Additionally, the sign-in page has been updated for environments using OCI Identity and Access Management, which will affect user experience based on their SSO configuration. A crucial action for users is to enroll in multifactor authentication if they are part of new environment families created from 25D onwards, ensuring enhanced security. Furthermore, certain Business Intelligence View Objects are deprecated, necessitating updates to BI Cloud Connector tasks.</p>
+<h2>What's New</h2>
+<ul>
+<li>Users can now record issues on Redwood pages using the Record Issue feature, enhancing help desk efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
+<li>Administrators can manage AI unit budgets and monitor consumption from AI Agent Studio, including setting alerts for budget limits. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51348.htm">Manage AI unit budget, consumption, and controls</a>)</li>
+<li>AI Agent Studio supports integration with CI/CD processes, improving deployment consistency and reducing manual publishing reliance. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51372.htm">Integrate AI Agent Studio applications and workflows with CI/CD</a>)</li>
+<li>The AI Agent Studio Testing and Lifecycle Automation Suite (ATLAS) now provides regression testing capabilities for workflows and applications. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51373.htm">Test and validate AI Agent Studio workflows with ATLAS</a>)</li>
+<li>Oracle Fusion Claw is introduced for creating autonomous outcomes through AI-driven automation, allowing users to define outcomes in natural language. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51374.htm">Use Oracle Fusion Claw to create autonomous outcomes with agentic applications</a>)</li>
+<li>Users can add instruction guardrails to LLM nodes in workflows to enhance safety and governance of AI responses. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51437.htm">Add instruction guardrails to LLM nodes</a>)</li>
+<li>AI Agent Studio introduces an AI Guidance node that connects workflow guidance to business objects for insights and recommendations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51676.htm">Configure an AI guidance node in a workflow</a>)</li>
+<li>Contextual announcement banners can now be enabled on Redwood pages to display important information and compliance messaging. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50831.htm">Contextual announcement banner on Redwood pages</a>)</li>
+<li>The Redwood appearance editor allows overriding accessibility checks for custom colors, enabling brand colors as primary theme colors. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50832.htm">Redwood appearance editor: Override accessibility checks and use as primary color</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The sign-in page for Oracle Fusion Cloud Applications has been updated to reflect different designs based on SSO configurations and OCI IAM usage. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50559.htm">Changes in Oracle Fusion Cloud Applications Sign In page</a>)</li>
+<li>AI Agent Studio now allows users to select specific large language models (LLMs) for workflows, with the Balanced category replacing the former Premium category. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51371.htm">Configure models and manage model lifecycle</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>Certain Business Intelligence View Objects (BIVOs) are deprecated and no longer available for extraction using BI Cloud Connector. Users should review the Deprecated and New BI View Objects spreadsheets to update their BICC tasks accordingly. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f24269.htm">Deprecated and new BI view objects in Oracle BI Cloud Connector</a>)</li>
+<li>Oracle Digital Assistant skills for Fusion Applications will be discontinued on November 21, 2026, requiring customers to develop migration plans. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-t77413.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Users must enroll in multifactor authentication (MFA) when signing in to Oracle Fusion Cloud Applications if they are part of new environment families created from 25D onwards. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50558.htm">Multifactor authentication (MFA)</a>)</li>
+<li>Ensure security administrators assign roles with the necessary privileges for new features, including Record and View Issue, Set Issue Recording Advanced Options, and View Version Information. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
+<li>Ensure access to AI Agent Studio for utilizing new features related to AI management and testing. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51348.htm">Manage AI unit budget, consumption, and controls</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51372.htm">Integrate AI Agent Studio applications and workflows with CI/CD</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51373.htm">Test and validate AI Agent Studio workflows with ATLAS</a>)</li>
+</ul></div>
+<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
+authoritative. Generated 2026-10-20 11:22 UTC.</footer>
+</div></body></html>

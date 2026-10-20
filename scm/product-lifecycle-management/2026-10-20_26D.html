@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>SCM · Product Lifecycle Management · 26D</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
+@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
+.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
+h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
+.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
+border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:28px}
+</style></head><body><div class="wrap">
+<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">SCM</a> › Product Lifecycle Management</nav>
+<div class="card"><h1>SCM · Product Lifecycle Management: Release digest</h1>
+<p><strong>Covers:</strong> Product Lifecycle Management 26D<br />
+<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the 26D release of Product Lifecycle Management, several new features enhance functionality across the module. Notable additions include decimal quantity support in the Configurator, allowing for fractional quantities, and the ability to define customer-specific inspection plans in Quality Management. The update also introduces a Quality Assurance Workspace for better analysis of inspection results and a new interface for managing import batches. Customers are required to complete pre-update tasks and can opt into new features to fully leverage these enhancements. Additionally, there are important considerations regarding the transition to Redwood pages that users should review.</p>
+<h2>What's New</h2>
+<ul>
+<li>Decimal quantity support is now available in Configurator, allowing fractional quantities for configurable options and sales structure components, improving order accuracy. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50871.htm">Decimal quantity support for configurator</a>)</li>
+<li>Users can define sales structures for configurator models, enhancing guided-selling capabilities and improving configuration outcomes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50869.htm">Define sales structure for configurator models</a>)</li>
+<li>The Redwood Configurator now supports programmatic interactions through a REST service, enabling external applications to manage configurations without UI. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50870.htm">Manage configurations programmatically with Redwood Configurator</a>)</li>
+<li>Organizations can define customer inspection plans and compare results against specifications, enhancing quality control processes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50529.htm">Define customer inspection plans and compare inspection results</a>)</li>
+<li>Ad hoc WIP inspections can now be conducted using industrial handheld devices, improving efficiency and accuracy in recording results. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50530.htm">Inspect work in process using industrial handheld devices</a>)</li>
+<li>The Quality Assurance Workspace provides a guided interface for analyzing inspection results and identifying risks, enhancing decision-making. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50528.htm">Quality Assurance Workspace</a>)</li>
+<li>Electronic signatures can now be used for activating quality inspection characteristics, ensuring a controlled approval process. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50531.htm">Use electronic signatures and electronic records when activating quality inspection characteristics</a>)</li>
+<li>Lifecycle validation for substitute components has been enhanced, allowing substitutes in Draft approval status during change order promotions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50662.htm">Allow substitutes that meet lifecycle requirements through same change order promotion</a>)</li>
+<li>Deviation change requests can now capture effective date ranges, allowing users to define the period for which deviations apply. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50661.htm">Capture effective date ranges on deviation change requests</a>)</li>
+<li>A centralized security inheritance model for reference organization items simplifies security management across Product Management interfaces. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50660.htm">Inherit security for reference organization items</a>)</li>
+<li>New operational attributes for sublot management improve item behavior management across manufacturing and sales channels. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50664.htm">Define item attributes for sublot management and self-service commerce</a>)</li>
+<li>Users can now manage coverage and subscription relationships for model structures, enhancing BOM analysis capabilities. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50667.htm">Manage coverage and subscription relationships for model structures</a>)</li>
+<li>A new Trading Partner Item Relationships table simplifies the management of trading partner item relationships by consolidating information. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50665.htm">View and manage advanced trading partner item relationships</a>)</li>
+<li>Users can subscribe to workflow status change events, improving visibility and traceability of workflow lifecycle changes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50659.htm">Use comprehensive business events for workflow status transitions</a>)</li>
+<li>The Redwood Import Batches UI allows users to manage import batches more effectively, including error handling. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50666.htm">Use import batches</a>)</li>
+<li>Enhancements to Access Control Lists allow for user access analysis and catalog exclusion conditions, improving security management. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50663.htm">View user access analysis and configure catalog exclusion condition</a>)</li>
+<li>This update includes several bug fixes that improve search functionality and item structure imports, enhancing overall user experience. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50751.htm">Selected Product Management bug fixes In this update</a>)</li>
+<li>Support for user-defined queries in data extracts allows for custom SQL queries, improving data extraction efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f51077.htm">Support for user-defined queries in data extracts</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>This update includes several bug fixes that improve search functionality for associated objects and better handling of inactive organizations during item structure imports. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-f50751.htm">Selected Product Management bug fixes In this update</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<p>None identified in this release.</p>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must perform pre-update and post-update tasks as part of their quarterly update process, as detailed in the Oracle Fusion Cloud SCM documentation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-t78591.htm">Pre-Update and Post-Update Tasks</a>)</li>
+<li>Customers can opt in to new features delivered in this update, which may be enabled or disabled by default. To activate disabled features, use the Navigator to access the New Features work area and follow the opt-in instructions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/plm26d/26D-plm-wn-t78607.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+</ul></div>
+<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
+authoritative. Generated 2026-10-20 11:22 UTC.</footer>
+</div></body></html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>SCM · Supply Chain Planning · 26D</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
+@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
+.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
+h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
+.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
+border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:28px}
+</style></head><body><div class="wrap">
+<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">SCM</a> › Supply Chain Planning</nav>
+<div class="card"><h1>SCM · Supply Chain Planning: Release digest</h1>
+<p><strong>Covers:</strong> Demand Management 26D, Sales and Operations Planning 26D, Supply Chain Collaboration 26D, Supply Planning 26D<br />
+<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the 26D release of Supply Chain Planning, major updates have been rolled out across several modules including Demand Management, Sales and Operations Planning, Supply Chain Collaboration, and Supply Planning. Notable new features include the ability to enable intra-organizational material transfers for supply requests, enhancements to demand simulation processes, and improved inventory management capabilities through the introduction of minimum remaining shelf life controls. Customers are required to perform pre-update and post-update tasks and can opt in to new features that may be disabled by default. This release emphasizes flexibility and efficiency in supply chain operations, ensuring that organizations can better manage their inventory and planning processes.</p>
+<h2>What's New</h2>
+<ul>
+<li>Demand Management introduces intra-organizational material transfers for supply requests from Self Service Procurement, enhancing fulfillment flexibility and inventory utilization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/demand26d/26D-demand-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/scp26d/26D-sc-planning-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>)</li>
+<li>The new Business Growth Planning Workspace AI application supports the introduction of new products within a selected plan, allowing users to review prioritized new items. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/demand26d/26D-demand-wn-f50202.htm">Business Growth Planning Workspace</a>)</li>
+<li>Supply Chain Collaboration now enables deriving supplier sites from invoice account numbers, improving processing accuracy for invoices. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/sccv26d/26D-sccv-wn-f50501.htm">Derive supplier site from invoice account numbers</a>)</li>
+<li>Supply Planning introduces the ability to manage production campaigns, allowing users to create and manage campaigns by organizations and resources. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/scp26d/26D-sc-planning-wn-f50207.htm">Manage production campaigns</a>)</li>
+<li>New features in Supply Planning include the ability to export and import editable date-type measures, improving consistency in updates. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/scp26d/26D-sc-planning-wn-f50226.htm">Support date measures during export and import</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>Demand Management now allows users to open demand plans during demand simulation, enhancing user experience by permitting modifications during simulations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/demand26d/26D-demand-wn-f50195.htm">Work with plans during demand simulation</a>)</li>
+<li>The action for simulations in Supply Planning has been updated to 'Simulate Demand' for better clarity, replacing the previous 'Run' action. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/scp26d/26D-sc-planning-wn-f50195.htm">Work with plans during demand simulation</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<p>None identified in this release.</p>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must perform pre-update and post-update tasks as outlined in the Oracle Fusion Cloud SCM documentation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/demand26d/26D-demand-wn-t78587.htm">Pre-Update and Post-Update Tasks</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/sop26d/26D-sales-ops-wn-t78592.htm">Pre-Update and Post-Update Tasks</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/sccv26d/26D-sccv-wn-t78593.htm">Pre-Update and Post-Update Tasks</a>)</li>
+<li>Users should opt in to new features that may be disabled by default, using the privileges ASM_REVIEW_APPLICATIONS_OFFERINGS_PRIV and ASM_CONFIGURE_OFFERING_PRIV. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/demand26d/26D-demand-wn-t78601.htm">Optional Uptake of New Features (Opt In)</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/sop26d/26D-sales-ops-wn-t78608.htm">Optional Uptake of New Features (Opt In)</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/sccv26d/26D-sccv-wn-t78610.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+</ul></div>
+<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
+authoritative. Generated 2026-10-20 11:22 UTC.</footer>
+</div></body></html>
