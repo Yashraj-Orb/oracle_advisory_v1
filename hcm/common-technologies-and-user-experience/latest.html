@@ -1,54 +1,52 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex, nofollow"><title>HCM · Common Technologies and User Experience · 26D</title>
-<style>
-:root{--bg:#f4f5f7;--card:#fff;--ink:#1f2933;--muted:#52606d;--line:#e4e7eb;--accent:#0b4f8a;--link:#0b6bcb}
-@media (prefers-color-scheme: dark){:root{--bg:#111418;--card:#1b2027;--ink:#e6e9ed;--muted:#9aa5b1;--line:#2c333c;--accent:#7cb7f0;--link:#8ec5ff}}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.55}
-.wrap{max-width:900px;margin:0 auto;padding:20px 16px 48px}
-nav{font-size:13px;color:var(--muted);margin-bottom:12px} nav a{color:var(--muted)}
-.card{background:var(--card);border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
-h1{font-size:24px;margin:0 0 8px} h2{font-size:19px;margin:26px 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
-h3{font-size:17px;margin:0 0 6px;color:var(--accent)} a{color:var(--link)} li{margin:5px 0}
-.meta{color:var(--muted);font-size:13px} .chips span{display:inline-block;font-size:12px;border:1px solid var(--line);
-border-radius:12px;padding:1px 9px;margin:6px 6px 0 0;color:var(--muted)}
-footer{color:var(--muted);font-size:12px;margin-top:28px}
-</style></head><body><div class="wrap">
-<nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">HCM</a> › Common Technologies and User Experience</nav>
-<div class="card"><h1>HCM · Common Technologies and User Experience: Release digest</h1>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>HCM · Common Technologies and User Experience · additions</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><div class="brand">Oracle Update Advisory</div><nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">HCM</a> › Common Technologies and User Experience</nav><div class="card"><h1>HCM · Common Technologies and User Experience: Update digest (additions since the last digest)</h1>
 <p><strong>Covers:</strong> Common Technologies and User Experience 26D<br />
-<strong>Generated:</strong> 2026-10-20 · Source: Oracle Cloud Readiness</p>
+<strong>Generated:</strong> 2026-10-21 · Source: Oracle Cloud Readiness</p>
 <h2>Executive Summary</h2>
-<p>In the 26D release for Common Technologies and User Experience, several key updates enhance user interaction and AI functionality. Users can now record issues directly on Redwood pages, while administrators gain the ability to manage AI unit budgets and monitor consumption effectively. The AI Agent Studio introduces multiple new features, including integration with CI/CD processes and the ability to create autonomous outcomes using Oracle Fusion Claw. Additionally, multifactor authentication is now required for users in new environment families, necessitating prompt enrollment. Customers should also be aware of the deprecation of certain Business Intelligence View Objects and the upcoming discontinuation of Oracle Digital Assistant skills.</p>
+<p>In the latest release (26D) for Common Technologies and User Experience, significant enhancements have been made across various modules. Users can now record issues directly on Redwood pages, which aids in troubleshooting and bug resolution. AI Agent Studio has seen the introduction of features for managing AI unit budgets, integrating CI/CD processes, and creating autonomous outcomes with Oracle Fusion Claw. Additionally, users can create and manage Ask Oracle plugins, extending the platform's capabilities. These updates require some setup, particularly for the new recording features and contextual announcement banners on Redwood pages, ensuring that users are equipped to leverage these enhancements effectively.</p>
 <h2>What's New</h2>
 <ul>
-<li>Users can now record issues on Redwood pages using the 'Record Issue' option in the Settings and Actions menu, requiring specific administrator permissions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
-<li>Administrators can manage AI unit budgets and monitor consumption from a single workspace in AI Agent Studio, including setting budgets and configuring alerts. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51348.htm">Manage AI unit budget, consumption, and controls</a>)</li>
-<li>AI Agent Studio now integrates with CI/CD processes, allowing for controlled application and workflow deployments. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51372.htm">Integrate AI Agent Studio applications and workflows with CI/CD</a>)</li>
-<li>The AI Agent Studio Testing and Lifecycle Automation Suite (ATLAS) supports regression testing for workflows, enabling detailed test reporting. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51373.htm">Test and validate AI Agent Studio workflows with ATLAS</a>)</li>
-<li>Oracle Fusion Claw is introduced for creating autonomous outcomes through AI-driven automation, allowing users to define outcomes in natural language. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51374.htm">Use Oracle Fusion Claw to create autonomous outcomes with agentic applications</a>)</li>
-<li>Users can add instruction guardrails to large language model nodes in workflows to enhance response reliability and safety. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51437.htm">Add instruction guardrails to LLM nodes</a>)</li>
-<li>AI Agent Studio introduces an AI Guidance node for linking insights to business objects securely. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51676.htm">Configure an AI guidance node in a workflow</a>)</li>
-<li>Contextual announcement banners can now be enabled on Redwood pages to display important information, configurable through Visual Builder Studio. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50831.htm">Contextual announcement banner on Redwood pages</a>)</li>
-<li>The Redwood appearance editor allows overriding accessibility checks for custom colors, enabling brand colors as primary colors for themes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50832.htm">Redwood appearance editor: Override accessibility checks and use as primary color</a>)</li>
+<li>Users can now record issues on Redwood pages using the Record Issue feature, which helps support teams with troubleshooting. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
+<li>AI Agent Studio introduces management of AI unit budgets, allowing administrators to set budgets and monitor consumption effectively. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51348.htm">Manage AI unit budget, consumption, and controls</a>)</li>
+<li>The ability to configure models and manage their lifecycle in AI Agent Studio provides users with enhanced control over large language models. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51371.htm">Configure models and manage model lifecycle</a>)</li>
+<li>AI Agent Studio now supports integration with CI/CD processes, improving deployment management through a controlled development lifecycle. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51372.htm">Integrate AI Agent Studio applications and workflows with CI/CD</a>)</li>
+<li>Oracle Fusion Claw allows users to create autonomous outcomes through AI-driven automation, defining outcomes in natural language. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51374.htm">Use Oracle Fusion Claw to create autonomous outcomes with agentic applications</a>)</li>
+<li>Users can create and manage Ask Oracle plugins in AI Agent Studio, extending its capabilities with specialized functionalities. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f52200.htm">Create and manage Ask Oracle plugins</a>)</li>
+<li>Contextual announcement banners can be enabled on Redwood pages to display important information, configurable via Visual Builder Studio. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50831.htm">Contextual announcement banner on Redwood pages</a>)</li>
+<li>The Redwood appearance editor now allows overriding accessibility checks for custom colors, enabling brand colors as primary themes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50832.htm">Redwood appearance editor: Override accessibility checks and use as primary color</a>)</li>
 </ul>
 <h2>What's Changed</h2>
 <ul>
-<li>The Oracle Fusion Cloud Applications Sign In page has been updated to display different interfaces based on federated or non-federated Single Sign-On, particularly for OCI IAM users. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50559.htm">Changes in Oracle Fusion Cloud Applications Sign In page</a>)</li>
+<li>The Redwood appearance editor has been enhanced to allow users to override accessibility checks for custom colors, which was not possible before. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50832.htm">Redwood appearance editor: Override accessibility checks and use as primary color</a>)</li>
 </ul>
 <h2>Deprecations, Retirements and Replacements</h2>
-<ul>
-<li>Certain Business Intelligence View Objects (BIVOs) are deprecated and no longer available for extraction using BI Cloud Connector, requiring users to update their BICC tasks accordingly. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f24269.htm">Deprecated and new BI view objects in Oracle BI Cloud Connector</a>)</li>
-<li>Oracle Digital Assistant skills for Fusion Applications will be discontinued on November 21, 2026, necessitating migration to AI Agent Studio. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-t77413.htm">IMPORTANT Actions and Considerations</a>)</li>
-</ul>
+<p>None identified in this release.</p>
 <h2>Action Required</h2>
 <ul>
-<li>Users must enroll in multifactor authentication (MFA) when signing in to Oracle Fusion Cloud Applications if they are part of new environment families created from 25D onwards. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50558.htm">Multifactor authentication (MFA)</a>)</li>
-<li>Ensure security administrator assigns roles with 'Record and View Issue' privilege and other related privileges for issue recording on Redwood pages. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
-<li>Access AI Agent Studio to manage budgets and configure new features introduced in this release. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51348.htm">Manage AI unit budget, consumption, and controls</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51372.htm">Integrate AI Agent Studio applications and workflows with CI/CD</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f51373.htm">Test and validate AI Agent Studio workflows with ATLAS</a>)</li>
-<li>Edit Page in Visual Builder Studio to enable contextual announcement banners on Redwood pages. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50831.htm">Contextual announcement banner on Redwood pages</a>)</li>
-<li>Create or enter a sandbox to utilize the new features in the Redwood appearance editor. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50832.htm">Redwood appearance editor: Override accessibility checks and use as primary color</a>)</li>
-</ul></div>
-<footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are
-authoritative. Digest date: 2026-10-20.</footer>
-</div></body></html>
+<li>Ensure users have the Record and View Issue privilege, and assign the Set Issue Recording Advanced Options privilege to relevant users to utilize the new issue recording feature. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50830.htm">Record issues on Redwood pages</a>)</li>
+<li>Edit pages in Visual Builder Studio to enable contextual announcement banners on Redwood pages, ensuring important information is communicated effectively. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/common/26d/common26d/26D-common-wn-f50831.htm">Contextual announcement banner on Redwood pages</a>)</li>
+</ul></div><footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are authoritative. Digest date: 2026-10-21.</footer></div></body></html>

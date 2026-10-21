@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Order Management · additions</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><div class="brand">Oracle Update Advisory</div><nav><a href="../../index.html">Oracle Update Advisory</a> › <a href="../index.html">SCM</a> › Order Management</nav><div class="card"><h1>SCM · Order Management: Update digest (additions since the last digest)</h1>
+<p><strong>Covers:</strong> Order Management 26D<br />
+<strong>Generated:</strong> 2026-10-21 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the latest 26D release for Order Management, several significant features have been added to enhance order processing and management. Key highlights include the introduction of AI agent activity audits, which provide a framework for tracking changes on sales orders, and asset-based ordering, allowing organizations to manage orders based on existing customer assets. Additionally, enhancements such as the Sales Order Command Center now support returns and cancellations for complex product types, improving decision-making through AI-driven recommendations. Customers are advised to review their integrations and configurations due to important changes and deprecations, including the removal of certain web service operations and the need to migrate to new features before their target removal dates.</p>
+<h2>What's New</h2>
+<ul>
+<li>AI agent activity audit for sales orders introduces a framework to track AI-driven actions on sales orders, accessible from the Agent Actions tab. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50504.htm">AI agent activity audit for sales orders</a>)</li>
+<li>Asset-based ordering allows organizations to create orders referencing existing customer assets, supporting operations like amending and renewing subscriptions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50473.htm">Asset-based ordering</a>)</li>
+<li>Users can now create and process coverage and subscription items within pick-to-order models, enhancing product offerings with optional warranties. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50447.htm">Create and process coverages and subscriptions within pick-to-order models</a>)</li>
+<li>Minimum remaining shelf life enforcement during order fulfillment improves compliance and customer satisfaction by requiring shelf-life rules. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50486.htm">Enforce minimum remaining shelf life in order fulfillment</a>)</li>
+<li>Recommended Product Configurations provide suggestions based on historical behavior, speeding up option selection in the Configurator Runtime UI. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50490.htm">Recommended product configurations</a>)</li>
+<li>The Sales Order Command Center now supports returns and cancellations for complex product types, leveraging AI recommendations for faster issue resolution. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50454.htm">Sales Order Command Center</a>)</li>
+<li>The Order Import Exceptions interface has been enhanced for better visibility and efficiency in handling failed sales order imports. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50456.htm">Import exceptions page</a>)</li>
+<li>Sales orders created with classic configured models can now be returned or copied using redesigned Redwood sales order pages. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50488.htm">Return and copy support for classic configured model sales orders</a>)</li>
+<li>Integration improvements between Inventory Management and Order Management enhance processing of transfer orders, supporting high transaction volumes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50489.htm">TO-OM OutBound: inventory to change integration to stage transfer orders in order management interface table</a>)</li>
+<li>The redesigned parameters page for managing order management parameters offers a modern setup experience with improved search functionality. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f51272.htm">Manage order management parameters</a>)</li>
+<li>The Configurator Runtime UI Designer allows customization of the configuration experience, enhancing navigation for sales-focused views. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50491.htm">Configurator runtime designer</a>)</li>
+<li>New configurator runtime capabilities support decimal quantities, improving order accuracy for products sold in fractional units. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50492.htm">Configurator runtime enhancements</a>)</li>
+<li>Users can create custom business object queries for data extracts, enabling faster and more efficient data extraction jobs. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f51077.htm">Support for user-defined queries in data extracts</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Sales Order Command Center now includes enhanced support for returns and cancellations, improving decision-making processes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50454.htm">Sales Order Command Center</a>)</li>
+<li>The Order Import Exceptions interface now allows for self-service actions such as resubmission and deletion of source orders, enhancing user efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50456.htm">Import exceptions page</a>)</li>
+<li>The parameters management page has been modernized to improve the setup experience while retaining existing functionalities. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f51272.htm">Manage order management parameters</a>)</li>
+<li>The Configurator Runtime now supports decimal quantities, enhancing order accuracy for fractional unit sales. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-f50492.htm">Configurator runtime enhancements</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>The Get Order Details operation of the Order Information Service web service is removed in 27A, replaced by the Get One Sales Order action of the Sales Orders for Order Hub REST API. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Planning for Orchestration Processes is no longer available starting in 26D. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>The Available Supplies REST resource is replaced by the Global Order Promises REST resource in 26A. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>The Purge Recent Objects scheduled process is replaced by the Delete Nontransactional Entities from Closed Sales Orders and Fulfillment Lines scheduled process in 25D. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>RequestHold and ReleaseHold operations in the Receive Order Request SOAP service are replaced by Apply Hold and Release Hold actions in the Sales Orders for Order Hub REST resource in 27A. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must review and potentially update their integrations and configurations due to important changes and deprecations in this release. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Check for Redwood Pages that are enabled by default and ensure compliance with new requirements for split order lines. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Review replaced features and migrate to replacements before target removal dates. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/order26d/26D-order-mgmt-wn-t78045.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul></div><footer>Summaries generated automatically from Oracle Cloud Readiness documentation; the linked Oracle pages are authoritative. Digest date: 2026-10-21.</footer></div></body></html>
